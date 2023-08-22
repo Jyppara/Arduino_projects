@@ -1,3 +1,7 @@
+// Author: JYRI MÄÄTTÄ
+// PROJECTS BOOK, Project 05: Mood Cue
+// Description: Using a servo motor to make a mechanical gauge to point out what mood youre in that day.
+
 #include <Servo.h>
 Servo myServo;
 

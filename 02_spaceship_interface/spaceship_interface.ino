@@ -1,3 +1,7 @@
+// Author: JYRI MÄÄTTÄ
+// PROJECTS BOOK, Project 02: Spaceship Interface
+// Description: Making a simple spaceship interface using a switch and a LED.
+
 int switchState = 0;
 
 void setup()
@@ -28,4 +32,4 @@ void loop()
         digitalWrite(5, LOW);
         delay(250); // wait for a quarter second
     }
-}       // end of loop
+} // end of loop

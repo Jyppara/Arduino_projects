@@ -1,3 +1,8 @@
+// Author: JYRI MÄÄTTÄ
+// PROJECTS BOOK, Project 04: Color Mixing Lamp    
+// Description: Using a tri-color LED and three photoresistors, you can make a color-mixing lamp that 
+//              smoothly changes colors depending on the light falling on the photoresistors.
+
 const int greenLEDPin = 9;
 const int redLEDPin = 10;
 const int blueLEDPin = 11;

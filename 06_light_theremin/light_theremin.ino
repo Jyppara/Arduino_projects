@@ -1,3 +1,7 @@
+// Author: JYRI MÄÄTTÄ
+// PROJECTS BOOK, Project 06: Light Theremin
+// Description: Using a phototransistor and a piezo element, you can make a simple light-based theremin.
+
 int sensorValue;
 int sensorLow = 1023;
 int sensorHigh = 0;

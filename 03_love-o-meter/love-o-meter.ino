@@ -1,4 +1,8 @@
-const int sensorPin = A0; // select the input pin for the potentiometer
+// Author: JYRI MÄÄTTÄ
+// PROJECTS BOOK, Project 03: Love-O-Meter
+// Description: Using an analog input you're going to make a love-o-meter and see how hot-blooded you are.
+
+const int sensorPin = A0;        // select the input pin for the potentiometer
 const float baselineTemp = 20.0; // room temperature in Celsius
 void setup()
 {
@@ -23,7 +27,7 @@ void loop()
     float temperature = (voltage - .5) * 100;
     Serial.print(", degrees C: ");
     Serial.println(temperature);
-    if (temperature < baselineTemp+2)
+    if (temperature < baselineTemp + 2)
     {
         digitalWrite(2, LOW);
         digitalWrite(3, LOW);
@@ -48,4 +52,4 @@ void loop()
         digitalWrite(4, HIGH);
     }
     delay(1); // delay in between reads for stability
-}       // end of loop
+} // end of loop
