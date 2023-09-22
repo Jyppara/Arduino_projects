@@ -1,0 +1,12 @@
+22/9/23
+    Starting the project.
+    Wiring ready.
+    First testing the wiring with a template code. Push button isn't reacting. LCD is working fine.
+    Pushbutton wiring fixed. Template code works perfectly.
+    Testing LCD screen functionality with own test code.
+    Pushbutton state stays HIGH even when not pushing the button, but keeping finger close to it.
+    10k pull down resistor fixed the issue.
+    Started coding the first game: Space Ship- game.
+    First game has now one moving asteroid and the spaceship.
+    Game stops when the asteroid hits the spaceship and displays the score on the Game Over- screen.
+    Code is not organized properly yet.
